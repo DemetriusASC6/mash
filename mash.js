@@ -7,9 +7,11 @@
 	2) Execute the function!
 */
 
+function mash() {
+	console.log("House");
+}
 
-
-
+mash()
 
 /*
 	3)Create a function called 'getHome' that takes no parameters and
@@ -19,9 +21,13 @@
 		ii)HINT: Use Math.random() to choose a random index
 */
 
-
-
-
+function getHome () {
+	var houses = ["Mansion","Apartment","Shack"]
+	rand = Math.random()*houses;
+	rand = Math.floor(rand);
+	let randomhouses = houses[rand]
+	console.log(randomhouses);
+}
 
 /*
 	4)Go back to the 'mash' function you wrote above
@@ -32,7 +38,12 @@
 	returns a number between 0 and 100
 */
 
+function getChildrenCount() {
+	var number = 
+	console.log(number);
+}
 
+getChildrenCount()
 
 /*
 	6)Modify the 'mash' function to RETURN the following string: 
